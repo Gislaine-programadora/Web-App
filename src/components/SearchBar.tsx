@@ -8,8 +8,9 @@ export const SearchBar = () => {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query.trim()) {
-      window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+    const trimmedQuery = query.trim();
+    if (trimmedQuery !== '') {
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(trimmedQuery)}`, '_blank');
     }
   };
 

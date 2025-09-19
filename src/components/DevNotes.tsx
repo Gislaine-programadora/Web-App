@@ -10,18 +10,31 @@ export const DevNotes = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    const savedNotes = localStorage.getItem("dev-notes");
-    if (savedNotes) {
-      setNotes(savedNotes);
+    try {
+      const savedNotes = localStorage.getItem("dev-notes");
+      if (savedNotes) {
+        setNotes(savedNotes);
+      }
+    } catch (error) {
+      console.error("Erro ao carregar notas:", error);
     }
   }, []);
 
   const saveNotes = () => {
-    localStorage.setItem("dev-notes", notes);
-    toast({
-      title: "Notas salvas!",
-      description: "Suas anotações foram salvas com sucesso.",
-    });
+    try {
+      localStorage.setItem("dev-notes", notes);
+      toast({
+        title: "Notas salvas!",
+        description: "Suas anotações foram salvas com sucesso.",
+      });
+    } catch (error) {
+      console.error("Erro ao salvar notas:", error);
+      toast({
+        title: "Erro ao salvar",
+        description: "Não foi possível salvar as notas.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
