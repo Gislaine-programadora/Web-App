@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Web-App project
 
 ## Project info
 
@@ -8,7 +8,7 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use Web-App**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/f69cd9a4-a576-4810-8ec7-57aac3de6ab3) and start prompting.
 
