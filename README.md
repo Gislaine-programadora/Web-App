@@ -13,7 +13,7 @@ Um workspace completo para desenvolvedores e investidores, com ferramentas integ
 
 ## 🖼️ Preview
 
-![Preview do projeto](https://web-app-ebon-phi.vercel.app/image.png)
+![Preview do projeto](https://web-app-ebon-phi.vercel.app/)
 
 ## 🌐 Deploy
 
