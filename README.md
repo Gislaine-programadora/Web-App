@@ -1,54 +1,42 @@
-# Welcome to your Web-App project
+# 🧠 Web-App | Dashboard Produtivo
 
-## Project info
+Um workspace completo para desenvolvedores e investidores, com ferramentas integradas que aumentam a produtividade e mantêm você informado em tempo real.
 
-**URL**: https://lovable.dev/projects/f69cd9a4-a576-4810-8ec7-57aac3de6ab3
+## 🚀 Funcionalidades
 
-## How can I edit this code?
+- 🔍 Busca integrada com Google
+- 💹 Cotações em tempo real (Bovespa, Criptomoedas)
+- 🧮 Calculadora embutida
+- 🗒️ Bloco de notas com salvamento rápido
+- 📰 Feed de notícias globais (Economia, Tecnologia, IA, Sustentabilidade)
+- 📎 Links rápidos para ferramentas essenciais (GitHub, VS Code, Etherscan, Remix)
 
-There are several ways of editing your application.
+## 🖼️ Preview
 
-**Use Web-App**
+![Preview do projeto](https://web-app-ebon-phi.vercel.app/image.png)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f69cd9a4-a576-4810-8ec7-57aac3de6ab3) and start prompting.
+## 🌐 Deploy
 
-Changes made via Lovable will be committed automatically to this repo.
+Acesse o projeto online:  
+🔗 [web-app-ebon-phi.vercel.app](https://web-app-ebon-phi.vercel.app/)
 
-**Use your preferred IDE**
+## 🛠️ Tecnologias
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- HTML5
+- CSS3
+- JavaScript / TypeScript
+- React
+- Vite
+- Vercel (Deploy)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Instalação local
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/Gislaine-programadora/Web-App.git
+cd Web-App
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -60,14 +48,5 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f69cd9a4-a576-4810-8ec7-57aac3de6ab3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+✨ Autor
+Desenvolvido com 💜 por Gislaine
